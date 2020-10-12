@@ -1,0 +1,184 @@
+.btn:active {
+  background-color: #0275d8;
+}
+
+.btn-dark:active {
+  background-color: #0275d8;
+}
+
+.container {
+  margin-top: 90px;
+  padding-top: 10px;
+}
+
+.spaceBefore {
+  padding-top: 10px;
+}
+
+.spaceAfter {
+  padding-bottom: 10px;
+}
+
+.spaceRight {
+  padding-right: 10px;
+}
+
+.largeButton {
+  width: 100px;
+}
+
+.login {
+  background-color: #292b2c;
+  width: 700px;
+  margin: auto 100px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.lightText {
+  color: white;
+}
+
+.rightText {
+  text-align: right;
+}
+
+.largeMarginTop {
+  margin-top: 100px;
+}
+
+.center {
+  margin: auto;
+}
+
+.switchButton input[type='radio'] {
+  display: none;
+}
+
+.switchButton label {
+  background-color: #292b2c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 2px;
+  width: 100px;
+  text-align: center;
+}
+
+.switchButton input[type='radio']:checked+label {
+  border: 2px solid #0275d8;
+  background-color: #0275d8;
+  width: 100px;
+}
+
+.switchButton table,tr,td {
+  padding: 0;
+  margin: 0;
+}
+
+.switchButton {
+  background-color: #0275d8;
+  border-radius: 3px;
+  padding: 0 5px 0 5px;
+  width: 200px;
+}
+
+.loginMessages {
+  max-width: 700px;
+}
+
+.btn-group {
+   margin: 0 auto;
+ }
+
+.error-message {
+  width: 700px;
+}
+
+.message-none {
+  display: none;
+}
+
+.stars {
+  background: url("stars.png") repeat-x 0 0;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.stars input[type="radio"].star5:checked ~ span {
+  width: 100%;
+}
+.stars input[type="radio"].star4:checked ~ span {
+  width: 80%;
+}
+.stars input[type="radio"].star3:checked ~ span {
+  width: 60%;
+}
+.stars input[type="radio"].star2:checked ~ span {
+  width: 40%;
+}
+.stars input[type="radio"].star1:checked ~ span {
+  width: 20%;
+}
+.stars label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+.stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+.stars label.star5:hover ~ span {
+  width: 100% !important;
+}
+.stars label.star4:hover ~ span {
+  width: 80% !important;
+}
+.stars label.star3:hover ~ span {
+  width: 60% !important;
+}
+.stars label.star2:hover ~ span {
+  width: 40% !important;
+}
+.stars label.star1:hover ~ span {
+  width: 20% !important;
+}
+.stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+
+.pagination {
+  background-color: #292b2c;
+}
+
+.page-link {
+  background-color: #292b2c;
+}
+
+.page-item {
+  background-color: #292b2c;
+}
