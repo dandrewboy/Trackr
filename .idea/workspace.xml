@@ -31,7 +31,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -83,9 +85,18 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="569" y="54" key="CommitChangelistDialog2" timestamp="1602463135428">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="569" y="54" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602463135428" />
     <state x="469" y="179" key="SettingsEditor" timestamp="1602462954871">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="179" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602462954871" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1602463261243">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602463137107" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1602463261243" />
   </component>
 </project>
