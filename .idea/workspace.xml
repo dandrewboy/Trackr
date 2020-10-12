@@ -76,6 +76,7 @@
       <workItem from="1602462927725" duration="154000" />
       <workItem from="1602463097256" duration="766000" />
       <workItem from="1602464892816" duration="26000" />
+      <workItem from="1602515973224" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="Added bootstrap data and class object models">
       <created>1602463135573</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602463335139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactored models&#10;Created Login Screen&#10;Created login handler&#10;Created logout handler">
+      <created>1602516026251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602516026251</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +110,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -114,22 +124,23 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Added bootstrap data and class object models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added bootstrap data and class object models" />
+    <MESSAGE value="Refactored models&#10;Created Login Screen&#10;Created login handler&#10;Created logout handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored models&#10;Created Login Screen&#10;Created login handler&#10;Created logout handler" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="569" y="54" key="CommitChangelistDialog2" timestamp="1602463335072">
+    <state x="569" y="54" key="CommitChangelistDialog2" timestamp="1602516026093">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="569" y="54" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602463135428" />
+    <state x="569" y="54" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602516026093" />
     <state x="569" y="54" key="CommitChangelistDialog2/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1602463335072" />
     <state x="469" y="179" key="SettingsEditor" timestamp="1602462954871">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="179" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602462954871" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1602464838129">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1602516027614">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602464838129" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602516027614" />
     <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1602463344545" />
   </component>
 </project>

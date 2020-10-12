@@ -4,13 +4,31 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="application.css"/>
-    <title>Shop Therapy</title>
+    <title>TRACKR</title>
 </head>
-<body>
+<body class="container">
+    <?php
+        session_start();
+        include "_header.php";
+    ?>
 
-<?php
-    session_start();
-    include "_header.php";
-?>
+    <div class="chartContainer">
+        <div class="barChart">
+            <h3 style="color: white;">BAR CHART</h3>
+        </div>
+        <div class="barChart">
+            <h3 style="color: white;">BAR CHART</h3>
+        </div>
+    </div>
+    <div class="chartContainer">
+        <div class="lineChart">
+            <h3 style="color: white;">LINE CHART</h3>
+        </div>
+        <div class="pieChart">
+            <h3 style="color: white;">PIE CHART</h3>
+        </div>
+    </div>
+
+    <a class="btn btn-primary largeButton center" style="color: white; border-color: #134466;">ADD</a>
 </body>
 </html>

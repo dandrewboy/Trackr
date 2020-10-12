@@ -1,12 +1,13 @@
 .btn:active {
-  background-color: #0275d8;
+  background-color: #134466;
 }
 
 .btn-dark:active {
-  background-color: #0275d8;
+  background-color: #134466;
 }
 
 .container {
+  background-color: #dcdcdc;
   margin-top: 90px;
   padding-top: 10px;
 }
@@ -23,12 +24,21 @@
   padding-right: 10px;
 }
 
-.largeButton {
+.largeLabel {
   width: 100px;
 }
 
+.largeButton {
+  background-color: #134466;
+
+}
+
+.navbarColor {
+  background-color: #2893ff;
+}
+
 .login {
-  background-color: #292b2c;
+  background-color: #2893ff;
   width: 700px;
   margin: auto 100px;
   padding: 50px;
@@ -181,4 +191,30 @@
 
 .page-item {
   background-color: #292b2c;
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.barChart {
+  height: 200px;
+  width: 50%;
+  background-color: #292b2c;
+  margin: 10px;
+}
+
+.lineChart {
+  height: 200px;
+  width: 80%;
+  background-color: #292b2c;
+  margin: 10px;
+}
+
+.pieChart {
+  height: 200px;
+  width: 20%;
+  background-color: #292b2c;
+  margin: 10px;
 }
