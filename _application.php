@@ -10,25 +10,26 @@
     <?php
         session_start();
         include "_header.php";
+        $incidents = $_SESSION["incidents"];
     ?>
 
     <div class="chartContainer">
         <div class="barChart">
-            <h3 style="color: white;">BAR CHART</h3>
+            <h6 style="color: white;">BAR CHART</h6>
         </div>
         <div class="barChart">
-            <h3 style="color: white;">BAR CHART</h3>
+            <h6 style="color: white;">BAR CHART</h6>
         </div>
     </div>
     <div class="chartContainer">
         <div class="lineChart">
-            <h3 style="color: white;">LINE CHART</h3>
+            <h6 style="color: white;">LINE CHART with <?php echo count($incidents);?> incidents</h6>
         </div>
         <div class="pieChart">
-            <h3 style="color: white;">PIE CHART</h3>
+            <h6 style="color: white;">PIE CHART</h6>
         </div>
     </div>
 
-    <a class="btn btn-primary largeButton center" style="color: white; border-color: #134466;">ADD</a>
+    <a class="btn btn-primary largeButton center largeLabel" style="color: white; border-color: #134466;">ADD</a>
 </body>
 </html>
