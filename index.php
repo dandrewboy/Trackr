@@ -14,6 +14,12 @@
         </div>
         <form id="loginForm" method="post" action="loginHandler.php">
             <div>
+            <?php
+            if (isset($_SESSION['message'])) {
+    			echo $_SESSION['message'];
+    			unset($_SESSION['message']);
+				}
+					?>
                 <div class="row spaceAfter center">
                     <label for="username" class="spaceRight lightText largeLabel">Username: </label>
                     <input type="text" id="username" name="username" class="form-control spaceRight loginFormControl"/>

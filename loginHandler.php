@@ -21,5 +21,6 @@
         $_SESSION['incidents'] = $incidents;
         include "_application.php";
     } else {
+        $_SESSION['message'] = 'Login failed, please check for correct username and password';
         include "index.php";
     }
