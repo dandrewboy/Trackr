@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1d1dc5c-dbca-48d4-a5d5-3fa1319192c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/._index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBootstrap.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,17 +12,23 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="MAMP PHP 7.2" />
   <component name="ProjectId" id="1ikrgNTOIRJQn6rX8VKWFVcLQ8r" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -67,6 +69,8 @@
       <workItem from="1602859577555" duration="416000" />
       <workItem from="1602860041442" duration="283000" />
       <workItem from="1602867524002" duration="60000" />
+      <workItem from="1602942046752" duration="537000" />
+      <workItem from="1602971248593" duration="173000" />
     </task>
     <task id="LOCAL-00001" summary="Added bootstrap data and class object models">
       <created>1602463135573</created>
@@ -96,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602519049297</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added charting library to be used&#10;Changed some styles">
+      <created>1602942157115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602942157115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +126,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$" />
@@ -122,26 +134,27 @@
     <MESSAGE value="Added bootstrap data and class object models" />
     <MESSAGE value="Refactored models&#10;Created Login Screen&#10;Created login handler&#10;Created logout handler" />
     <MESSAGE value="Added chart stubs on application page&#10;Added ADD button for incident form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added chart stubs on application page&#10;Added ADD button for incident form" />
+    <MESSAGE value="Added charting library to be used&#10;Changed some styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added charting library to be used&#10;Changed some styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="648" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602859584580">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="648" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602859584580" />
-    <state x="569" y="39" key="CommitChangelistDialog2" timestamp="1602519049133">
+    <state x="569" y="28" key="CommitChangelistDialog2" timestamp="1602942156804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="569" y="39" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602519049133" />
+    <state x="569" y="28" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602942156804" />
     <state x="569" y="54" key="CommitChangelistDialog2/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1602463335072" />
     <state x="469" y="179" key="SettingsEditor" timestamp="1602860229484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="179" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602860229484" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1602519050763">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1602942158663">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602519050763" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602942158663" />
     <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1602463344545" />
   </component>
 </project>

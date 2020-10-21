@@ -13,8 +13,20 @@ $customers = array(new Customer(1, "Tier 1"), new Customer(2, "Patriot"), new Cu
 $systems = array(new System(1, "STRATX"), new System(2, "VaporGun"));
 $errorTypes = array(new ErrorType(1, "Quality"), new ErrorType(2, "Human Error"));
 
-$incidents = array(new Incident(1, "10/2/2020", "Metal Shavings", $customers[0], $systems[0], $errorTypes[1], true, false, true),
-    new Incident(2, "10/7/2020", "Blocked Threads", $customers[1], $systems[1], $errorTypes[0], false, true, false),
-    new Incident(3, "10/13/2020", "Moisture", $customers[0], $systems[1], $errorTypes[1], true, false, true),
-    new Incident(4, "10/28/2020", "Chipped carrier", $customers[2], $systems[0], $errorTypes[0], true, true, false),
-    new Incident(5, "10/30/2020", "Stripped Wires", $customers[1], $systems[1], $errorTypes[1], false, false, true));
+$incidents = array(new Incident(1, "10/2", "Metal Shavings", $customers[0], $systems[0], $errorTypes[1], true, false, true),
+    new Incident(2, "10/2", "Blocked Threads", $customers[1], $systems[1], $errorTypes[0], false, true, false),
+    new Incident(3, "10/3", "Moisture", $customers[0], $systems[1], $errorTypes[1], true, false, true),
+    new Incident(4, "10/7", "Chipped carrier", $customers[1], $systems[1], $errorTypes[0], true, false, false),
+    new Incident(2, "10/7", "Blocked Threads", $customers[1], $systems[1], $errorTypes[1], false, true, false),
+    new Incident(3, "10/7", "Moisture", $customers[0], $systems[1], $errorTypes[1], true, false, true),
+    new Incident(4, "10/7", "Chipped carrier", $customers[2], $systems[0], $errorTypes[0], false, true, false),
+    new Incident(2, "10/7", "Blocked Threads", $customers[2], $systems[1], $errorTypes[0], false, true, true),
+    new Incident(3, "10/10", "Moisture", $customers[0], $systems[1], $errorTypes[1], true, false, true),
+    new Incident(4, "10/10", "Chipped carrier", $customers[2], $systems[0], $errorTypes[0], true, true, false),
+    new Incident(2, "10/17", "Blocked Threads", $customers[1], $systems[0], $errorTypes[0], false, true, false),
+    new Incident(3, "10/23", "Moisture", $customers[0], $systems[1], $errorTypes[1], true, false, true),
+    new Incident(4, "10/23", "Chipped carrier", $customers[0], $systems[0], $errorTypes[1], true, true, false),
+    new Incident(2, "10/27", "Blocked Threads", $customers[0], $systems[1], $errorTypes[1], false, false, false),
+    new Incident(3, "10/27", "Moisture", $customers[0], $systems[0], $errorTypes[1], true, false, true),
+    new Incident(4, "10/28", "Chipped carrier", $customers[2], $systems[0], $errorTypes[0], true, true, true),
+    new Incident(5, "10/30", "Stripped Wires", $customers[1], $systems[1], $errorTypes[1], false, false, true));

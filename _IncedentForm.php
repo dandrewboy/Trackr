@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="application.css"/>
     <title>TRACKR</title>
 </head>
-<form id="loginForm" method="post" action="loginHandler.php">
-    <div>
-      <body class="container">
+ <body class="container">
+      <form id="loginForm" method="post" action="_application.php">
 	    <div class="row spaceAfter center">
            <label for="date" class="spaceRight lightText largeLabel">Date: </label>
            <input type="text" id="date" name="date" class="form-control spaceRight IncedentFormControl"/>
@@ -38,14 +37,13 @@
            <input type="text" id="release" name="release" class="form-control spaceRight IncedentFormControl"/>
         </div>
         <div class="row spaceAfter center">
-           <label for="shortCircuit" class="spaceRight lightText largeLabel">Short Circuit: </label>
+           <label for="shortCircuit" class="spaceRight lightText" style="width: 200px;">Short Circuit: </label>
            <input type="text" id="shortCircuit" name="shortCircuit" class="form-control spaceRight IncedentFormControl"/>
         </div>
         <div class="row">
            <input type="submit" value="Submit" class="btn btn-primary largeButton center"/>
          </div>
-        </form>
-        </body>
-    </div>
+      </form>
+ </body>
 </html>
 <?php

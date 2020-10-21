@@ -32,8 +32,10 @@ class Incident {
     public function setDetails($details): void { $this->details = $details; }
     public function getCustomer() { return $this->customer; }
     public function setCustomer($customer): void { $this->customer = $customer; }
-    public function getSystem() { return $this->errorType; }
-    public function setSystem($errorType): void { $this->errorType = $errorType; }
+    public function getSystem() { return $this->system; }
+    public function setSystem($system): void { $this->system = $system; }
+    public function getErrorType() { return $this->errorType; }
+    public function setErrorType($errorType): void { $this->errorType = $errorType; }
     public function getMisfire() { return $this->misfire; }
     public function setMisfire($misfire): void { $this->misfire = $misfire; }
     public function getRelease() { return $this->release; }
