@@ -95,7 +95,5 @@
     <div class="chartContainer">
         <div id="curve_chart" style="height: 200px; width: 100%; margin: 10px;"></div>
     </div>
-
-    <a class="btn btn-primary largeButton center largeLabel" style="color: white; border-color: #134466;" href="_IncedentForm.php">ADD</a>
 </body>
 </html>
