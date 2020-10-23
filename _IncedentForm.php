@@ -7,7 +7,17 @@
     <title>TRACKR</title>
 </head>
  <body class="container">
-      <form id="loginForm" method="post" action="_application.php">
+   <?php
+            if (isset($_SESSION['message'])) {
+    			echo $_SESSION['message'];
+    			unset($_SESSION['message']);
+				}
+					?>
+      <form id="incedentForm" method="post" action="incedentHandler.php">
+      <div class="row spaceAfter center">
+           <label for="id" class="spaceRight lightText largeLabel">Id: </label>
+           <input type="text" id="id" name="id" class="form-control spaceRight IncedentFormControl"/>
+        </div>
 	    <div class="row spaceAfter center">
            <label for="date" class="spaceRight lightText largeLabel">Date: </label>
            <input type="text" id="date" name="date" class="form-control spaceRight IncedentFormControl"/>
