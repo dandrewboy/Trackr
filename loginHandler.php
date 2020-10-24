@@ -17,7 +17,6 @@
     }
 
     if($isAuthenticated) {
-        $_SESSION['user'] = $user;
         $_SESSION['incidents'] = $incidents;
         include "_application.php";
     } else {

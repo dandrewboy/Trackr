@@ -3,7 +3,7 @@
 
 class User {
     private $id;
-    private $username;
+    public $username;
     private $password;
 
     function __construct($id, $username, $password) {
