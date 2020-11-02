@@ -73,6 +73,8 @@
       <workItem from="1602971248593" duration="173000" />
       <workItem from="1603238832585" duration="246000" />
       <workItem from="1603551083007" duration="23000" />
+      <workItem from="1603562808590" duration="359000" />
+      <workItem from="1604007876427" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Added bootstrap data and class object models">
       <created>1602463135573</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603238861548</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Incident form page is now styled like technical document&#10;Incident properly saves&#10;Does not return to application correctly though">
+      <created>1603562892792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603562892792</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,26 +154,27 @@
     <MESSAGE value="Added chart stubs on application page&#10;Added ADD button for incident form" />
     <MESSAGE value="Added charting library to be used&#10;Changed some styles" />
     <MESSAGE value="Added all charts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all charts" />
+    <MESSAGE value="Incident form page is now styled like technical document&#10;Incident properly saves&#10;Does not return to application correctly though" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incident form page is now styled like technical document&#10;Incident properly saves&#10;Does not return to application correctly though" />
   </component>
   <component name="WindowStateProjectService">
     <state x="648" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602859584580">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="648" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602859584580" />
-    <state x="569" y="28" key="CommitChangelistDialog2" timestamp="1603238860472">
+    <state x="569" y="28" key="CommitChangelistDialog2" timestamp="1603562892582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="569" y="28" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603238860472" />
+    <state x="569" y="28" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603562892582" />
     <state x="569" y="54" key="CommitChangelistDialog2/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1602463335072" />
     <state x="469" y="179" key="SettingsEditor" timestamp="1602860229484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="179" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602860229484" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1603238863202">
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2" timestamp="1603562895654">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603238863202" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603562895654" />
     <state x="560" y="276" key="Vcs.Push.Dialog.v2/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1602463344545" />
   </component>
 </project>

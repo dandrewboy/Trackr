@@ -1,5 +1,4 @@
 <?php
-include "Data.php";
 session_start();
 $incidents = $_SESSION["incidents"];
 ?>

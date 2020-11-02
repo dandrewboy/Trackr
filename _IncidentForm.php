@@ -3,7 +3,7 @@ include "Incident.php";
 session_start();
 $incidents = $_SESSION["incidents"];
 
-$id = max(array_map(function($i) {return $i->getId();}, $incidents)) + 1;
+$id = count($incidents) + 1;
 ?>
 
 <!DOCTYPE html>
